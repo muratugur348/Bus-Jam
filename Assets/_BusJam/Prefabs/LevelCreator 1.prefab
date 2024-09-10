@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6935685942540059681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6935685942540059683}
+  - component: {fileID: 6935685942540059682}
+  m_Layer: 0
+  m_Name: LevelCreator 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6935685942540059683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6935685942540059681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6935685942540059682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6935685942540059681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb68604ec1754b9b8ea0738f3fc8c785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridWidth: 5
+  gridHeight: 5
+  levelIndex: 0
+  matchAreaSize: 0
+  explosiveColors: 
+  gameColors: {fileID: 11400000, guid: f6087fc9de0d5cd4983d14cd31c33230, type: 2}
+  spaceModifier: 0.75
+  gridOffset: {x: 0, y: 0, z: 0}
+  gridPrefab: {fileID: 3737029773897871998, guid: fd7cc2fa182962d4baa6650bcebe72db,
+    type: 3}
+  stickmanPrefab: {fileID: 142358002901346202, guid: 967acea8e1c7b2d42beacb4959ff3f17,
+    type: 3}
+  spawnerPrefab: {fileID: 6167010700255512771, guid: cc212eca929ba724dbd4fa5d39253088,
+    type: 3}
+  inGameWallPrefab: {fileID: 7477317104669172539, guid: f1c7859be9a9df042b4cadb9737feb80,
+    type: 3}
+  cornerSharpWall: {fileID: 4848911872959697441, guid: 72bb88a4f846a054e9994c879e351dfc,
+    type: 3}
+  fullWall: {fileID: 2537697959577777841, guid: 08f784e03e0ac6f4aa39046f9a6d880c,
+    type: 3}
+  cornerBevelWall: {fileID: 5237134553775750682, guid: 6c3925da0c8c80b47a2f84657ca07999,
+    type: 3}
+  straightWall: {fileID: 7957962537738532104, guid: 1047b32e72da87645b99bc15016e517c,
+    type: 3}
+  directionType: 0
+  colorType: 0
+  isQuestionMark: 0
